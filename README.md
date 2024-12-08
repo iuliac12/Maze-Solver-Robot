@@ -21,6 +21,11 @@ This project combines hardware assembly and software development, making it a ha
   
 The maze solver robot consists of several interconnected modules: a power supply to energize the system, sensors for obstacle detection, a microcontroller to process data and implement the maze-solving algorithm, a motor driver to control wheel motion, and actuators to enable movement. These modules work together to ensure the robot can detect walls, decide the optimal direction, and navigate through the maze autonomously. The ultrasonic sensors continuously relay distance measurements to the microcontroller, which interprets the data, computes the next move, and sends corresponding commands to the motors.
 
+  #
+  
+### **Block Diagram**
+- TBD
+
 ##
 </details>
 
@@ -32,14 +37,21 @@ The maze solver robot consists of several interconnected modules: a power supply
   
    ### 1. List of components: 
    
-- Arduino Uno microcontroller board
-- HC-SR04 ultrasonic sensors (x3)
-- L298N motor driver module
-- DC motors with wheels (x4)
-- Rechargeable battery pack 
-- Power switch
-- Jumper wires and connectors
-- Robot chassis
+| Component                   | Quantity | Description                                   |
+|-----------------------------|:--------:|-----------------------------------------------|
+| Arduino Uno                 |    1     | Microcontroller for managing system state     |
+| HC-SR04 Ultrasonic Sensor   |    3     | Detect obstacles and measure distances        |
+| L298N Motor Driver Module   |    1     | IControls the speed and direction of motors   |
+| DC Motors with Wheels       |    4     | Enables robot movement                        |
+| Rechargeable Battery Pack	  |    1     | Powers the entire system                      |
+| Power Switch                |    1     | Controls power to the robot                   |
+| Jumper Wires and Connectors |  various | Connects components in the circuit            |
+| Robot Chassis               |    1     | Physical structure housing all components     |
+
+
+  ### Diagrams
+- TBD
+
   
 ##
 </details>
