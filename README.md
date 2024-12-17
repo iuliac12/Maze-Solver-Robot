@@ -84,6 +84,7 @@ Function: The robot chassis is the physical frame that holds and supports all th
 
 
   ### 2. Circuit Diagram
+  ![image](https://github.com/user-attachments/assets/266be15e-0c12-4d4d-899f-eca66bcd1c98)
 
 
   ### 3. Results
