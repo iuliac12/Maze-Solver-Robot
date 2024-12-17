@@ -21,6 +21,20 @@ This project combines hardware assembly and software development, making it a ha
   
 The maze solver robot consists of several interconnected modules: a power supply to energize the system, sensors for obstacle detection, a microcontroller to process data and implement the maze-solving algorithm, a motor driver to control wheel motion, and actuators to enable movement. These modules work together to ensure the robot can detect walls, decide the optimal direction, and navigate through the maze autonomously. The ultrasonic sensors continuously relay distance measurements to the microcontroller, which interprets the data, computes the next move, and sends corresponding commands to the motors.
 
+  #
+  
+### **Block Diagram**
+
+![image](https://github.com/user-attachments/assets/139bb0cd-bb23-43cb-af62-25b789df2552)
+
+
+##
+</details>
+
+
+<details>
+  <summary> <h2> Hardware Design </h2> </summary>
+
 # Components
 
 ## 1. Arduino Uno
@@ -51,20 +65,6 @@ Function: Jumper wires and connectors are used to make electrical connections be
 ## 8. Robot Chassis
 Function: The robot chassis is the physical frame that holds and supports all the components of the robot. It provides a structure for mounting the Arduino, motors, sensors, battery, and other parts. The chassis gives the robot its shape and ensures that the components are securely in place, allowing the robot to move efficiently through the maze.
 
-  #
-  
-### **Block Diagram**
-
-![image](https://github.com/user-attachments/assets/139bb0cd-bb23-43cb-af62-25b789df2552)
-
-
-##
-</details>
-
-
-<details>
-  <summary> <h2> Hardware Design </h2> </summary>
-
   ##
   
    ### 1. List of components: 
@@ -81,7 +81,9 @@ Function: The robot chassis is the physical frame that holds and supports all th
 | Robot Chassis               |    1     | Physical structure housing all components     | [Link](https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/)  |
 
 
-  ### Circuit Diagrams
+
+
+  ### 2. Circuit Diagrams
 
   
 ##
