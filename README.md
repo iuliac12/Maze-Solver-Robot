@@ -88,9 +88,9 @@ Function: The robot chassis is the physical frame that holds and supports all th
 
 
   ### 3. Results
-![image](https://github.com/user-attachments/assets/ab55e865-ea8e-4406-b836-9a83a6bd4869)
-![image](https://github.com/user-attachments/assets/a05b789e-75d8-49ff-82d6-83a663061e0d)
-![image](https://github.com/user-attachments/assets/acf02a38-8f6f-403a-bedc-6b736136307b)
+<img src="https://github.com/user-attachments/assets/ab55e865-ea8e-4406-b836-9a83a6bd4869" width="400" />
+<img src="https://github.com/user-attachments/assets/a05b789e-75d8-49ff-82d6-83a663061e0d" width="400" />
+<img src="https://github.com/user-attachments/assets/acf02a38-8f6f-403a-bedc-6b736136307b" width="400" />
 
   
 ##
