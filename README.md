@@ -69,20 +69,19 @@ Function: The robot chassis is the physical frame that holds and supports all th
   
    ### 1. List of components: 
    
-| Component                   | Quantity | Description                                   |
-|-----------------------------|:--------:|-----------------------------------------------|
-| Arduino Uno                 |    1     | Microcontroller for managing system state     |
-| HC-SR04 Ultrasonic Sensor   |    3     | Detect obstacles and measure distances        |
-| L298N Motor Driver Module   |    1     | IControls the speed and direction of motors   |
-| DC Motors with Wheels       |    4     | Enables robot movement                        |
-| Rechargeable Battery Pack	  |    1     | Powers the entire system                      |
-| Power Switch                |    1     | Controls power to the robot                   |
-| Jumper Wires and Connectors |  various | Connects components in the circuit            |
-| Robot Chassis               |    1     | Physical structure housing all components     |
+| Component                   | Quantity | Description                                   |Source         |
+|-----------------------------|:--------:|-----------------------------------------------|---------------|
+| Arduino Uno                 |    1     | Microcontroller for managing system state     |Kit            | 
+| HC-SR04 Ultrasonic Sensor   |    3     | Detect obstacles and measure distances        |Kit            |
+| L298N Motor Driver Module   |    1     | IControls the speed and direction of motors   |Kit            |
+| DC Motors with Wheels       |    4     | Enables robot movement                        |[link][https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/] | 
+| Rechargeable Battery Pack	  |    1     | Powers the entire system                      |[link][https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/] |
+| Power Switch                |    1     | Controls power to the robot                   |[link][https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/] | 
+| Jumper Wires and Connectors |  various | Connects components in the circuit            |Kit            |
+| Robot Chassis               |    1     | Physical structure housing all components     |[link][https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/]  |
 
 
-  ### Diagrams
-- TBD
+  ### Circuit Diagrams
 
   
 ##
