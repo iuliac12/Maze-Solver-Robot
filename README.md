@@ -21,10 +21,31 @@ This project combines hardware assembly and software development, making it a ha
   
 The maze solver robot consists of several interconnected modules: a power supply to energize the system, sensors for obstacle detection, a microcontroller to process data and implement the maze-solving algorithm, a motor driver to control wheel motion, and actuators to enable movement. These modules work together to ensure the robot can detect walls, decide the optimal direction, and navigate through the maze autonomously. The ultrasonic sensors continuously relay distance measurements to the microcontroller, which interprets the data, computes the next move, and sends corresponding commands to the motors.
 
+# Components
+
+1. Arduino Uno
+Function: The Arduino Uno is the microcontroller that acts as the brain of the robot. It processes data received from the ultrasonic sensors and executes the maze-solving algorithm. It also controls the motor driver and sends commands to the motors based on the logic of the program. The Arduino is responsible for interpreting sensor data and deciding the next move of the robot.
+3. HC-SR04 Ultrasonic Sensors (3)
+Function: These sensors are used to detect obstacles and measure the distance between the robot and objects (like walls in the maze). The sensor sends out sound waves and measures the time it takes for the waves to bounce back from the nearest obstacle. Based on this information, the Arduino calculates the distance and decides whether the robot should move forward, turn, or stop.
+4. L298N Motor Driver Module
+Function: The L298N motor driver is used to control the direction and speed of the robot's DC motors. It receives commands from the Arduino and drives the motors accordingly. The L298N allows the motors to rotate in both directions (forward and backward), enabling the robot to move around the maze and navigate through it. It also controls the speed by adjusting the voltage sent to the motors.
+5. DC Motors with Wheels (4)
+Function: These are the actuators that physically move the robot. The four DC motors are connected to the wheels and are controlled by the L298N motor driver. The motors enable the robot to move forward, backward, and turn by adjusting their rotation speed and direction based on commands from the Arduino.
+6. Rechargeable Battery Pack
+Function: The rechargeable battery pack provides power to the entire robot system, including the Arduino, sensors, motor driver, and motors. It stores electrical energy and ensures the robot operates independently, without being plugged into an external power source. The battery is essential for the mobility and functionality of the robot.
+7. Power Switch
+Function: The power switch controls the power flow to the robot. It allows the user to turn the robot on and off, ensuring that power is only supplied when needed. The switch is typically connected between the battery and the rest of the components.
+8. Jumper Wires and Connectors
+Function: Jumper wires and connectors are used to make electrical connections between different components in the robot. They link the Arduino to the ultrasonic sensors, motor driver, and other parts of the system, enabling the flow of signals and power.
+9. Robot Chassis
+Function: The robot chassis is the physical frame that holds and supports all the components of the robot. It provides a structure for mounting the Arduino, motors, sensors, battery, and other parts. The chassis gives the robot its shape and ensures that the components are securely in place, allowing the robot to move efficiently through the maze.
+
   #
   
 ### **Block Diagram**
-- TBD
+
+![image](https://github.com/user-attachments/assets/139bb0cd-bb23-43cb-af62-25b789df2552)
+
 
 ##
 </details>
