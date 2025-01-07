@@ -134,7 +134,34 @@ The button functionality is enhanced using interrupts.Replacing digitalRead(BUTT
 <details>
   <summary> <h2> Conclusions </h2> </summary>
 
-  ##
+  ## Sensor Calibration
+In the provided code, sensor calibration is implicitly handled by defining a threshold distance for obstacle detection (FRONT_OBSTACLE_DIST = 12 cm). This value represents the minimum safe distance for the robot to continue moving forward. The ultrasonic sensors measure distances using the readUltrasonic() function, which calculates the time taken for an ultrasonic pulse to return. To ensure accuracy:
+
+Stabilization Delay: A small delay (delayMicroseconds(2)) is introduced before triggering the ultrasonic sensors, ensuring no residual signals from previous measurements.
+Empirical Testing: The FRONT_OBSTACLE_DIST value was likely determined through real-world tests, ensuring reliable obstacle avoidance in various scenarios.
+
+
+  ## Code Optimizations
+The code is optimized for simplicity and clarity, but there are key areas where enhancements have been made:
+
+Reusability with Functions:
+Functions like moveForward(), stopMotors(), turnLeft(), and turnRight() encapsulate motor control logic, improving code readability and reducing redundancy. This modular approach makes it easier to maintain and update the movement logic.
+
+Sensor Handling:
+The readUltrasonic() function standardizes how distances are measured, avoiding repeated code for each sensor. This ensures consistent behavior across all sensors and simplifies debugging.
+
+Delay Management:
+Delays are strategically placed to stabilize sensor readings and control movement timing. For example:
+
+ - After detecting an obstacle, a delay(500) is introduced to ensure accurate readings before deciding on a direction.
+ - Turning delays (delay(1000)) ensure sufficient time for the robot to realign before resuming forward movement.
+
+Serial Debugging for Insights:
+The use of Serial.print() to log sensor readings and robot actions allows real-time monitoring. This feature is crucial for understanding and fine-tuning the robot's behavior without modifying the core code.
+
+PWM for Motor Control:
+PWM is used to control motor speed, ensuring smooth and efficient movements. This also allows the flexibility to adjust speed dynamically if required.
+
   
 ##
 </details>
