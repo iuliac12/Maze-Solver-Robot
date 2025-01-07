@@ -103,10 +103,22 @@ Function: The robot chassis is the physical frame that holds and supports all th
   ### Development enviroment:
   
   I will use the PlatformIO IDE extension within Visual Studio Code.
+  
+  Biblioteca Arduino este ideală pentru acest proiect datorită funcțiilor integrate pentru controlul pinii I/O, comunicarea cu senzori și motoare, precum și pentru debugging prin serial monitor. Aceasta simplifică implementarea și asigură compatibilitate optimă cu hardware-ul utilizat.  Biblioteca facilitează configurarea și manipularea pinii I/O, oferă funcții utile precum digitalWrite, analogWrite, pinMode, și pulseIn pentru comunicarea cu motoare și senzori ultrasonici. De asemenea, include un mediu integrat pentru serial communication (Serial.print și Serial.begin), esențial pentru debugging și monitorizarea în timp real a datelor senzorilor.
 
-  
-   TBD
-  
+## USART
+  The code uses USART for real-time debugging through Serial.print() and Serial.println(). This allows monitoring the distances measured by sensors and the robot's actions, such as "Moving forward..." or "Obstacle detected!". This is essential for understanding the robot's behavior and troubleshooting issues.
+
+## Timer PWM
+  The code utilizes PWM for motor speed control via analogWrite(ENA, 255) and analogWrite(ENB, 255). This allows precise control over motor speed, enabling smooth and adjustable movement.
+
+## ADC
+  ADC (Analog to Digital Conversion)
+Analog pins (A0, A1, A2, etc.) are used in the ultrasonic sensors to send trigger signals and read echo responses. This interaction involves precise timing but demonstrates the versatility of analog pins for sensor communication.
+
+## Interrupts (Button)
+The button functionality is enhanced using interrupts.Replacing digitalRead(BUTTON_PIN) with an interrupt (attachInterrupt()) makes the robot more responsive to button presses, ensuring immediate reactions without constant polling.
+
 ##
 </details>
 
@@ -115,7 +127,6 @@ Function: The robot chassis is the physical frame that holds and supports all th
   https://drive.google.com/file/d/17nqogZexw8D-uYIoD-r9nx2xkgNjbzaZ/view?usp=drivesdk 
   
   ##
-   TBD
   
 ##
 </details>
@@ -124,7 +135,6 @@ Function: The robot chassis is the physical frame that holds and supports all th
   <summary> <h2> Conclusions </h2> </summary>
 
   ##
-   TBD
   
 ##
 </details>
@@ -134,7 +144,6 @@ Function: The robot chassis is the physical frame that holds and supports all th
   
   ##
 
-   TBD
   
 ##
 </details>
