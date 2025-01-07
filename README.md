@@ -21,7 +21,6 @@ This project combines hardware assembly and software development, making it a ha
   
 The maze solver robot consists of several interconnected modules: a power supply to energize the system, sensors for obstacle detection, a microcontroller to process data and implement the maze-solving algorithm, a motor driver to control wheel motion, and actuators to enable movement. These modules work together to ensure the robot can detect walls, decide the optimal direction, and navigate through the maze autonomously. The ultrasonic sensors continuously relay distance measurements to the microcontroller, which interprets the data, computes the next move, and sends corresponding commands to the motors.
 
-  #
   
 
 ##
@@ -113,7 +112,8 @@ Function: The robot chassis is the physical frame that holds and supports all th
 
 <details>
   <summary> <h2> Results </h2> </summary>
-
+  https://drive.google.com/file/d/17nqogZexw8D-uYIoD-r9nx2xkgNjbzaZ/view?usp=drivesdk 
+  
   ##
    TBD
   
