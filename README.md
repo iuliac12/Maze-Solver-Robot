@@ -82,13 +82,16 @@ Function: The robot chassis is the physical frame that holds and supports all th
 ![image](https://github.com/user-attachments/assets/2e87b6c4-b17a-406f-83e8-e52c4b884eea)
 
   ### 2. Circuit Diagram
-  ![image](https://github.com/user-attachments/assets/266be15e-0c12-4d4d-899f-eca66bcd1c98)
+![image](https://github.com/user-attachments/assets/29547e14-e7ab-4bab-964c-99dad146db74)
 
 
   ### 3. Results
-<img src="https://github.com/user-attachments/assets/ab55e865-ea8e-4406-b836-9a83a6bd4869" width="400" />
-<img src="https://github.com/user-attachments/assets/a05b789e-75d8-49ff-82d6-83a663061e0d" width="400" />
-<img src="https://github.com/user-attachments/assets/acf02a38-8f6f-403a-bedc-6b736136307b" width="400" />
+
+<img src="https://github.com/user-attachments/assets/aff4d288-03ed-4941-a596-8a4144c7404f" width="400" />
+<img src="https://github.com/user-attachments/assets/cb62d7a8-819f-4212-8ab8-c7d31687fdf9" width="400" />
+<img src="https://github.com/user-attachments/assets/f2d894fb-66be-4e78-b725-a9bef692902e" width="400" />
+<img src="https://github.com/user-attachments/assets/115dabf7-201b-435e-bf04-ef06170672b1" width="400" />
+
 
   
 ##
