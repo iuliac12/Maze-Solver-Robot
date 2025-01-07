@@ -23,10 +23,6 @@ The maze solver robot consists of several interconnected modules: a power supply
 
   #
   
-### **Block Diagram**
-
-![image](https://github.com/user-attachments/assets/139bb0cd-bb23-43cb-af62-25b789df2552)
-
 
 ##
 </details>
@@ -81,7 +77,9 @@ Function: The robot chassis is the physical frame that holds and supports all th
 | Robot Chassis               |    1     | Physical structure housing all components     | [Link](https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/)  |
 
 
+### **Block Diagram**
 
+![image](![image](https://github.com/user-attachments/assets/2e87b6c4-b17a-406f-83e8-e52c4b884eea))
 
   ### 2. Circuit Diagram
   ![image](https://github.com/user-attachments/assets/266be15e-0c12-4d4d-899f-eca66bcd1c98)
